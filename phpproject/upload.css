@@ -1,0 +1,79 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: montserrat;
+        background-image: url('pexels-fauxels-3183198.jpg');
+        /*filter:blur(80px);*/
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav .logo{
+    color:white;
+    font-size: 25px;
+    inline-box-align: 60px;
+    line-height: 70px;
+    padding: 0 90px;
+    font-weight: bold;
+    
+}
+
+   
+    nav {
+        background-color: black;
+        height: 80px;
+        width: 100%;
+    }
+
+    ul {
+        float: right;
+        list-style: none;
+        margin-right: 10px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 70px;
+        margin: 2px;
+
+    
+    }
+
+    ul a {
+        /*border: 2px dashed darkgray;*/
+        color: white;
+        font-weight: bold;
+        
+    padding: 8px 16px;
+    border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: coral;
+    }
+
+    input {
+        /* float: left; */
+        display: inline-block;
+        margin-left: 10px;
+        padding: 20px;
+        margin: auto;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        background-color: rgba(10, 52, 87, 0.618);
+        justify-content: center;
+        padding: 1rem;
+    }
+    
+
+    
+
+   

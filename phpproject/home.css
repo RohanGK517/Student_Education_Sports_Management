@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-image:url('pexels-pixabay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+nav .logo{
+    color:white;
+    font-size: 25px;
+    inline-box-align: 60px;
+    line-height: 70px;
+    padding: 0 90px;
+    font-weight: bold;
+    
+}
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    line-height:70px;
+    margin: 0 2px;
+    
+}
+nav ul a{
+    /*border: 2px dashed darkgray;*/
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    background:coral;
+    /*trasition: .5s;*/
+}
+
+.contend {
+    padding: 2rem;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    width: 100%;
+    height: 100%;
+    /*border: 5px solid red;*/
+}
+.contend .text {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.contend .text div{
+    /*border: 2px solid red;*/
+    width: 60%;
+    height: 60%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    /*border-bottom: 3px solid black;*/
+}
+.contend .text div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*border: 2px solid green;*/
+    height: 100%;
+    margin: 3rem;
+}
+.contend .text div a img {
+    /*margin:0 3rem;*/
+    /*border: 2px solid blue ;*/
+    /*display: block;*/
+    border-radius: 30%;
+    width: 100%;
+    /*opacity: 0.6;*/
+    height: 100%;
+    
+}
+
+.contend .text div button{
+    /*align-content: center;*/
+    /*width: 2rem;*/
+    padding: 1rem;
+    /*background-color:#a3dcd6 ;*/
+    /*border: none;*/
+    border-radius: 2rem;
+    font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  /*outline: 0;*/
+  background: black;
+  width: 50%;
+  /*border: non;*/
+/*border-radius:30px;*/
+  margin: 60px 80px 8px;
+  /*padding: 10px;*/
+  color:white;
+  /*-webkit-transition: all 0.7 ease;*/
+  
+  cursor: pointer;
+  /*transition: all 0.6s;*/
+
+}
+
+
+  

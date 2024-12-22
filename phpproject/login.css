@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+  /*background-image: url('pexels-pixabay-434337.jpg');*/
+  background-image: url('pexels-tirachard-kumtanom-733852.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: gray;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+.form input {
+  font-family: FontAwesome, "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+border-radius:10px;
+  
+}
+.form button {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  outline: 0;
+  background:  #148f77;
+  width: 100%;
+  border: 0;
+border-radius:30px;
+  margin: 0px 0px 8px;
+  padding: 15px;
+  color: black;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  transition: all 0.2s;
+
+}
+.form button:hover,.form button:focus {
+  background: coral;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+nav .logo{
+    color:white;
+    font-size: 25px;
+    inline-box-align: 60px;
+    line-height: 70px;
+    padding: 0 90px;
+    font-weight: bold;
+    
+}
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    line-height:70px;
+    margin: 0 2px;
+    
+}
+nav ul a{
+    /*border: 2px dashed darkgray;*/
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    background: coral;
+    /*trasition: .5s;*/
+}
